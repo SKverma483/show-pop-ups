@@ -1,4 +1,4 @@
-"use script";
+'use script'
 const togglingTheModals = function () {
   modal.classList.toggle("hidden");
   overlay.classList.toggle("hidden");
