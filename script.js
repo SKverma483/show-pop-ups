@@ -3,14 +3,6 @@ const togglingTheModals = function () {
   modal.classList.toggle("hidden");
   overlay.classList.toggle("hidden");
 };
-const showingTheModals = function () {
-  modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-};
-const closingTheModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-};
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".close-modal");
 const overlay = document.querySelector(".overlay");
